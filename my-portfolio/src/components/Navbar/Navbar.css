@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    backdrop-filter: blur(15px);
+    
+    
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    
+}
+
+
+
+
+
+.header .nav-links{
+    list-style: none;
+    
+}
+
+
+
+
+
+
+
+
+
+

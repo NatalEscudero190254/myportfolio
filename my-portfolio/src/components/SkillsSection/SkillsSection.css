@@ -1,0 +1,37 @@
+.skills-container h2{
+    margin-top: 200px;
+    background-image: linear-gradient(
+        180deg,
+        #ea98da,
+        #5b6cf9
+    );
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.tecnologies{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    place-items: center;
+    padding: 10px;
+    
+}
+
+.tecnologies-container{
+    border: solid 1px;
+    border-radius: 2rem;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tecnologies ul li{
+    list-style: none;
+}
+
+.tecnologies h6{
+    font-size: 1.5rem;
+}
