@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../../assets/logo2.svg"
 import Button from '../Button/Button';
 import "./Navbar.css"
-import CV from "../../assets/CurriculumNatal.pdf"
+import CV from "../../assets/CurriculumNatalPDF.pdf"
 
 const Navbar = () => {
     return (

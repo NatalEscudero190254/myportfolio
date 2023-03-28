@@ -1,5 +1,6 @@
 import React from 'react';
 import "./AboutSection.css"
+import ME from "../../assets/ME.png"
 
 const AboutSection = () => {
     return (
@@ -8,7 +9,7 @@ const AboutSection = () => {
             
             <div className='about-container'>
                     <div className='background-img'>
-                         <img src="https://images.pexels.com/photos/15670518/pexels-photo-15670518.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
+                         <img src={ME} alt="IMG NOT FOUND" />
                     </div>
                
                     <div className='text-about-container'>
